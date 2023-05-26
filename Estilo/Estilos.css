@@ -1,0 +1,70 @@
+/**GoogleFonts'Dancing Script', cursiva;**/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+/**GoogleFonts'Comfortaa', cursiva;**/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dancing+Script:wght@500&display=swap');
+
+html{
+    background-color: #d7d7a8;
+    }
+header {
+    background-color: #668f60;
+       }
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    }
+main{
+    background-color:#89ac76;
+    }
+
+footer {
+    background-color:#668f60;
+       }
+.Imagenes{
+    width: 30%; /**Ancho de imagen**/
+         }
+.SubtitulosOTextInformativo {
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: wheat;
+    font-weight: 100;
+                             }
+.TextoInformativo {
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    width: 50%;
+                  }         /**Estilo para textos informativos**/
+.ListaDeEnlaceRelativo {
+    list-style-type: none;
+                }           /**Estilo para listas**/
+.EnlaceRelativoOInternos {
+    text-decoration: none;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size:120%;
+                         }  /**Estilo para enlaces relativos e internos**/
+.Formulario {
+    background-color: red;
+            }
+.TituloDeContenido {
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: wheat;
+    text-align: center;
+                    }
+.TextoFormulario {
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+                  } 
+.ImagProd{
+    width: 10%; /**Ancho de imagen**/
+         }
+        

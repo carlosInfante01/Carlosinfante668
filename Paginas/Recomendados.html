@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../Estilo/Estilos.css">
+    
+    <title>Recomendados</title>
+</head>
+<body>
+
+    <header> <!--Cabecera-->
+        <!--Titulo-->
+        <h1 id="Inicio">Vivero <br> "Petunia"</h1>  
+        <!--Menu navegable-->
+        <nav>
+            <ul class="ListaDeEnlaceRelativo">
+                <li>
+                    <a href="../index.html" class="EnlaceRelativoOInternos">Inicio</a>
+                </li>
+                <li>
+                    <a href="Plantas.html" class="EnlaceRelativoOInternos">Plantas</a>
+                </li>
+                <li>
+                    <a href="Macetas.html" class="EnlaceRelativoOInternos">Macetas</a>
+                </li>
+                <li>
+                    <a href="Recomendados.html" class="EnlaceRelativoOInternos">Recomendados</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html" class="EnlaceRelativoOInternos">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main> <!--Cuerpo de la pagina-->
+        <section>
+            <p class="TituloDeContenido">Semilla para la huerta en casa</p>
+            <ul class="ListaDeEnlaceRelativo">
+                <li>
+                    <img class="ImagProd" src="../Imagenes/SemillaParaHuerta/SemilaTomate.png" alt="SemillaTomate">
+                    <p class="TextoInformativo">Semilla de tomate 50 g $40</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/SemillaParaHuerta/SemillaCebolla.jpg" alt="SemillaDeCebolla">
+                    <p class="TextoInformativo">Semilla de cebolla 250 g $185</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/SemillaParaHuerta/SemillaLechuga.jpg" alt="SemillaDeLechuga">
+                    <p class="TextoInformativo">Semilla de lechuga 50 g $50</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/SemillaParaHuerta/SemillaMorron.jpg" alt="SemillaDeMorron">
+                    <p class="TextoInformativo">Semilla de morron 50 g $70</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/SemillaParaHuerta/SemillaZanahoria.jpg" alt="SemillaDeZanahoria">
+                    <p class="TextoInformativo">Semilla de zanahoria 100 g $90</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/SemillaParaHuerta/SemillaZapallo.jpg" alt="SemillaDeZapallo">
+                    <p class="TextoInformativo">Semilla de zapallo 100 g $70</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <p id="Huerta" class="TituloDeContenido">Sustratos y otros</p>
+            <ul class="ListaDeEnlaceRelativo">
+                <li>
+                    <img class="ImagProd" src="../Imagenes/ParaLaHuerta/FetilizanteOrganico.jpg" alt="Fertilizante">
+                    <p class="TextoInformativo">Fertilizante organico $360</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/ParaLaHuerta/KitHuerta.jpg" alt="kitHuerta">
+                    <p class="TextoInformativo">kit huerta $2460</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/ParaLaHuerta/MacetaMadera.jpg" alt="MacetaDeMadera">
+                    <p class="TextoInformativo">Maceta de madera $1260</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/ParaLaHuerta/RegaderaZinc7k.jpg" alt="RegaderaDeZinc">
+                    <p class="TextoInformativo">Regadera de Zinc $7320</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/ParaLaHuerta/TierraAbonada140-50Kg.png" alt="Tierra">
+                    <p class="TextoInformativo">Tierra abonada 50 Kg $2500</p>
+                </li>
+                <li>
+                    <img class="ImagProd" src="../Imagenes/ParaLaHuerta/TierraPreparada10KG.webp" alt="Tierra">
+                    <p class="TextoInformativo">Tierra abonada 10 Kg $500</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer> <!--pie de pagina-->
+        <h4 class="SubtitulosOTextInformativo">Tenes dudas envianos tu consulta</h4>
+        <form action="Formulario.php" method="post">
+            <label for="" class="TextoFormulario">Nombre</label> <!--Titulo del formulario-->
+            <input type="text" name="NombreDeUsuario" id="nombre" class="TextoFormulario" placeholder="Ricardo"><!--Cuadro contenedor-->
+            <label for="" class="TextoFormulario">Apellido</label> <!--Titulo del formulario-->
+            <input type="text" name="ApellidoDeUsuario" id="apellido" class="TextoFormulario" placeholder="Gargayo"><!--Cuadro contenedor-->
+            <label for="" class="TextoFormulario">Ingrese su numero de telefono</label>
+            <input type="tel" name="TelefonoDelUsuario" class="TextoFormulario" id="Telefono" placeholder="+54**********">
+            <label for="" class="TextoFormulario">Ingrese su E-Mail</label>
+            <input type="email" name="EmailUsuario" class="TextoFormulario" id="email" placeholder="********@gmail.com">
+            <P class="TextoFormulario">Ingresa tu consulta:</P>
+            <textarea name="" class="TextoFormulario" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="TextoFormulario" value="Enviar">
+        </form>
+        <nav>
+            <ul class="ListaDeEnlaceRelativo">
+                <li>
+                    <a href="#Inicio" class="EnlaceRelativoOInternos">Inicio</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html#contacto" class="EnlaceRelativoOInternos">Contacto</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html#Ubicacion" class="EnlaceRelativoOInternos">Ubicación</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>

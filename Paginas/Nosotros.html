@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../Estilo/Estilos.css">
+    
+    <title>Nosotros</title>
+</head>
+<body>
+
+    <header> <!--Cabecera-->
+        <!--Titulo-->
+        <h1 id="Inicio">Vivero <br> "Petunia"</h1>  
+        <!--Menu navegable-->
+        <nav>
+            <ul class="ListaDeEnlaceRelativo">
+                <li>
+                    <a href="../index.html" class="EnlaceRelativoOInternos">Inicio</a>
+                </li>
+                <li>
+                    <a href="Plantas.html" class="EnlaceRelativoOInternos">Plantas</a>
+                </li>
+                <li>
+                    <a href="Macetas.html" class="EnlaceRelativoOInternos">Macetas</a>
+                </li>
+                <li>
+                    <a href="Recomendados.html" class="EnlaceRelativoOInternos">Recomendados</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html" class="EnlaceRelativoOInternos">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main> <!--Cuerpo de la pagina-->
+        <section>
+            <H2 class="SubtitulosOTextInformativo">Nosotros</H2>  
+            <p class="TextoInformativo">Un vivero ubicado en cualquier lugar. Atendido por cualquier persona, el cual vende cualquier cosa.</p>
+        </section>
+        <section>
+            <h2 id="Ubicacion" class="SubtitulosOTextInformativo">Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67680.98145633732!2d-65.17888171154928!3d
+            -29.985714005855495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942eff2fca07a20d%3A0x51f0511220a4c23
+            d!2sSalinas%20Grandes!5e0!3m2!1ses-419!2sar!4v1682971355166!5m2!1ses-419!2sar" width="600" height="450" style=
+            "border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <h2 id="contacto" class="SubtitulosOTextInformativo">Contacto</h2>
+            <p class="TextoInformativo">Dirección: Calle Falsa 123</p>
+            <p class="TextoInformativo">Telefono:+5411123456789</p>
+            <p class="TextoInformativo">E-Mail: CorreoFalso@Gmaill.com</p>
+
+        </section>
+    </main>
+
+    <footer> <!--pie de pagina-->
+        <h4 class="SubtitulosOTextInformativo">Tenes dudas envianos tu consulta</h4>
+        <form action="Formulario.php" method="post">
+            <label for="" class="TextoFormulario">Nombre</label> <!--Titulo del formulario-->
+            <input type="text" name="NombreDeUsuario" id="nombre" class="TextoFormulario" placeholder="Ricardo"><!--Cuadro contenedor-->
+            <label for="" class="TextoFormulario">Apellido</label> <!--Titulo del formulario-->
+            <input type="text" name="ApellidoDeUsuario" id="apellido" class="TextoFormulario" placeholder="Gargayo"><!--Cuadro contenedor-->
+            <label for="" class="TextoFormulario">Ingrese su numero de telefono</label>
+            <input type="tel" name="TelefonoDelUsuario" class="TextoFormulario" id="Telefono" placeholder="+54**********">
+            <label for="" class="TextoFormulario">Ingrese su E-Mail</label>
+            <input type="email" name="EmailUsuario" class="TextoFormulario" id="email" placeholder="********@gmail.com">
+            <P class="TextoFormulario">Ingresa tu consulta:</P>
+            <textarea name="" class="TextoFormulario" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="TextoFormulario" value="Enviar">
+        </form>
+        <nav>
+            <ul class="ListaDeEnlaceRelativo">
+                <li>
+                    <a href="#Inicio" class="EnlaceRelativoOInternos">Inicio</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html#contacto" class="EnlaceRelativoOInternos">Contacto</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html#Ubicacion" class="EnlaceRelativoOInternos">Ubicación</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Estilo/Estilos.css">
+
+    <title>Vivero_Petunia</title>
+</head>
+<body>
+
+    <header> <!--Cabecera-->
+        <!--Titulo-->
+        <h1 id="Inicio">Vivero <br> "Petunia"</h1>  
+        <!--Menu navegable-->
+        <nav>
+            <ul class="ListaDeEnlaceRelativo">
+                <li>
+                    <a href="index.html" class="EnlaceRelativoOInternos">Inicio</a>
+                </li>
+                <li>
+                    <a href="Paginas/Plantas.html" class="EnlaceRelativoOInternos">Plantas</a>
+                </li>
+                <li>
+                    <a href="Paginas/Macetas.html" class="EnlaceRelativoOInternos">Macetas</a>
+                </li>
+                <li>
+                    <a href="Paginas/Recomendados.html" class="EnlaceRelativoOInternos">Recomendados</a>
+                </li>
+                <li>
+                    <a href="Paginas/Nosotros.html" class="EnlaceRelativoOInternos">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main> <!--Cuerpo de la pagina-->
+        <section>
+            <nav>
+                <a href="Paginas/Plantas.html#PlantasInv" class="SubtitulosOTextInformativo">Plantas de invierno</a>
+            </nav>
+            <p class="TextoInformativo">
+                En el invierno, las flores le darán vida y alegría a tu hogar. Cultiva plantas que florezcan,
+                resistentes a las bajas temperaturas, y verás cómo embellecerán tu jardín. <br>
+                ¿Quién dijo que las plantas no pueden mostrar toda su hermosura y esplendor
+                durante el invierno? Existe una gran variedad de arbustos que florece justo
+                cuando las temperaturas bajan. Esto es perfecto para añadirle color a los días
+                fríos y oscuros que trae la estación invernal. Si quieres conocer algunas de
+                las plantas con flores que resisten el frío del invierno, ¡aquí encontrarás algunas!
+            </p>
+            <img src="Imagenes/ciclamen-violeta-persa.jpg" alt="Violeta persa" class="Imagenes">
+        </section>
+    
+        <section>
+            <nav>
+                <a href="Paginas/Plantas.html#PlantasInt" class="SubtitulosOTextInformativo">Un poco de verde en el interior de la casa</a>
+            </nav>
+            <p class="TextoInformativo">
+                Tener plantas en el hogar resulta beneficioso por varios motivos. Por lo general, mucha
+                gente las usa principalmente porque ayudan a enriquecer la decoración, pero también porque 
+                purifican el aire y mantienen un ambiente agradable.
+            </p>
+            <img src="Imagenes/PlantaInterior.jpg" alt="sansevierias y potho en una habitacion" class="Imagenes">
+        </section>
+
+        <section>
+            <nav>
+                <a href="Paginas/Recomendados.html#Huerta" class="SubtitulosOTextInformativo">Una huerta en casa</a>
+            </nav>
+            <p class="TextoInformativo">
+                ¿Te gustaría consumir productos naturales y cuidar el medio ambiente? ¿quieres que tus hijos
+                e hijas aprendan a proteger la naturaleza? Tener un huerto urbano en tu casa puede ser una
+                solución fácil y económica. <br> Un huerto en casa te permitirá obtener frutas y verduras
+                de temporada y totalmente frescas y naturales. Además, podrás utilizar medios naturales 
+                en lugar de pesticidas para proteger las plantas.
+            </p>
+            <img src="Imagenes/Macetohuerto.jpeg" alt="Huerta en un patio" class="Imagenes">
+        </section>
+    </main>
+
+    <footer> <!--pie de pagina-->
+        <h4 class="SubtitulosOTextInformativo">Tenes dudas envianos tu consulta</h4>
+        <form action="Formulario.php" method="post">
+            <label for="" class="TextoFormulario">Nombre</label> <!--Titulo del formulario-->
+            <input type="text" name="NombreDeUsuario" id="nombre" class="TextoFormulario" placeholder="Ricardo"><!--Cuadro contenedor-->
+            <label for="" class="TextoFormulario">Apellido</label> <!--Titulo del formulario-->
+            <input type="text" name="ApellidoDeUsuario" id="apellido" class="TextoFormulario" placeholder="Gargayo"><!--Cuadro contenedor-->
+            <label for="" class="TextoFormulario">Ingrese su numero de telefono</label>
+            <input type="tel" name="TelefonoDelUsuario" class="TextoFormulario" id="Telefono" placeholder="+54**********">
+            <label for="" class="TextoFormulario">Ingrese su E-Mail</label>
+            <input type="email" name="EmailUsuario" class="TextoFormulario" id="email" placeholder="********@gmail.com">
+            <P class="TextoFormulario">Ingresa tu consulta:</P>
+            <textarea name="" class="TextoFormulario" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="TextoFormulario" value="Enviar">
+        </form>
+        <nav>
+           <ul class="ListaDeEnlaceRelativo">
+               <li>
+                   <a href="#Inicio" class="EnlaceRelativoOInternos">Inicio</a>
+               </li>
+               <li>
+                   <a href="Paginas/Nosotros.html#contacto" class="EnlaceRelativoOInternos">Contacto</a>
+               </li>
+               <li>
+                   <a href="Paginas/Nosotros.html#Ubicacion" class="EnlaceRelativoOInternos">Ubicación</a>
+               </li>
+           </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>
