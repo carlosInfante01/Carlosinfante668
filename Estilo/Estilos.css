@@ -74,12 +74,12 @@ main{
     font-family: 'Dancing Script', cursive;
     color: white;
     text-align: center;
-                    }
+                    } /**titulo del contenido**/
 
 .ImagProd{
     width: 200px; /**Ancho de imagen**/
     border-radius: 10px;
-         }
+         } /**Visualizacion de los productos**/
 .SeccionCont{
     display: grid;
     grid-template-rows: 300px;
