@@ -1,0 +1,24 @@
+footer {
+    background-color:white;
+       }
+
+.SeccionContPieDePagina {
+    list-style-type: none;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 70px 70px 70px;
+    align-items: center;
+    justify-content: center;
+
+                }           /**Estilo para listas**/
+
+.EnlacesPieDePagina {
+    text-decoration: none;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size:120%;
+                    }  /**Estilo para enlaces pie de pagina**/
+
+
+

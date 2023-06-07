@@ -1,0 +1,33 @@
+.ContItemsProd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+               }
+
+.itemProd {
+    width: 204px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(342, 132, 123, .2);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+.ImagProd{
+    width: 200px; /**Ancho de imagen**/
+    border-radius: 10px;
+         } /**Visualizacion de los productos**/
+
+.TituloDeContenido {
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+                  } /**titulo del contenido**/

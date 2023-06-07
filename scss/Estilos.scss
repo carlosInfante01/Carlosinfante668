@@ -1,0 +1,27 @@
+//reset y base//
+
+@import './base/reset';
+@import './base/fonts';
+
+//header//
+
+@import './layout/header';
+
+//main//
+
+@import './layout/main';
+@import './layout/section';
+
+//footer//
+
+@import './layout/footer';
+@import './layout/form_section';
+
+//Seccion de articulos//
+
+@import './layout/product_section';
+
+//Seccion Informativa//
+
+@import './layout/informative_section';
+
