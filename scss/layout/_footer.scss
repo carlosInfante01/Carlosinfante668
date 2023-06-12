@@ -2,23 +2,25 @@ footer {
     background-color:white;
        }
 
-.SeccionContPieDePagina {
+.SeccionContPieDePagina { 
+    height: 60px;
     list-style-type: none;
-    background-color: white;
-    display: grid;
-    grid-template-rows: 50px;
-    grid-template-columns: 70px 70px 70px;
+    display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color: rgba(342, 132, 123, .2);
                 }           /**Estilo para listas**/
 
 .EnlacesPieDePagina {
+    margin: 5px;
     text-decoration: none;
     color: black;
     font-family: 'Dancing Script', cursive;
     font-size:120%;
+    text-align: center;
                     }  /**Estilo para enlaces pie de pagina**/
 
-
+.MenuNavegabledelPieDePagina{
+    background-color: rgba(342, 132, 123, .2);
+}
 

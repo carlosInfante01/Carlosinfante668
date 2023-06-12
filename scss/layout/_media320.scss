@@ -1,0 +1,19 @@
+
+//mobile
+
+@media only screen and (max-width:375px){
+    .SeccionInformativa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 60rem;
+                        }
+}
+
+@media only screen and (max-width:375px){
+    .TituloFormulario {
+            font-size: 1.8rem;
+            text-align: center;
+            color: white;
+                          }
+                        }

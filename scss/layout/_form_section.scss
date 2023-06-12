@@ -6,6 +6,7 @@
                       }
                      
 .TituloFormulario {
+    padding-left: 3px;
     font-size: 3rem;
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
@@ -13,9 +14,12 @@
     font-weight: 100;
     grid-row: 1/2;
     grid-column: 1/5;
-    background-color: rgba(342, 132, 123, .2);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 7%, rgba(255,132,123,0.2) 14%);
                   }
-
+.form-label{
+    padding-left: 3px;   
+}
 .LabelFormulario {
     padding-left: 10px;
     padding-right: 2px;
