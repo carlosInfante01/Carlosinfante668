@@ -8,7 +8,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(342, 132, 123, .2);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 9%, rgba(255,132,123,0.2) 15%);
                 }           /**Estilo para listas**/
 
 .EnlacesPieDePagina {
