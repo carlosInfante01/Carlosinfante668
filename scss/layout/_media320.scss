@@ -33,4 +33,15 @@
                             }
                                         }
 
+@media only screen and (max-width:375px){
+    .boton{
+        padding-bottom:2px;
+        padding-left: 2px;
+        padding-top: 2px;
+        padding-right: 10px;
+        grid-row: 4/5;
+        grid-column: 4/5;
+           }
+                                        }
+
                         
