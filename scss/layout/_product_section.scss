@@ -1,9 +1,12 @@
+@import '../components/Animaciones';
+
 .ContItemsProd {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: start;
-               }
+    padding-left: 0;
+               }         
 
 .itemProd {
     width: 204px;
@@ -15,19 +18,32 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    transition: 1s;
+          }
 
+.itemProd:hover{
+    transform: scale(1.05);
+    animation-name: sacudir;
+    animation-duration:0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: unset;
 }
 
 
 .ImagProd{
     width: 200px; /**Ancho de imagen**/
+    height: 200px;
     border-radius: 10px;
+    background-size: contain;
          } /**Visualizacion de los productos**/
 
 .TituloDeContenido {
+    
+    text-align: center;
     font-size: 3rem;
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    color: white;
-    text-align: center;
+    color: wheat;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 5%, rgba(135,135,135,0.7) 20%, rgba(216, 210, 210, 0.8) 27%, rgba(216, 210, 210,.8) 78%, rgba(135,135,135,0.7) 86%, rgba(255,255,255,0) 95%);
                   } /**titulo del contenido**/
