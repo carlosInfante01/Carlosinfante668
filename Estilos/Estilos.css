@@ -253,7 +253,7 @@ footer {
 .ImagUbi {
   width: 100%; /**Ancho de imagen**/
   border-radius: 10px;
-  border: 4px;
+  border: red solid 4px;
 }
 
 .CuadrosInformativoContacto {
